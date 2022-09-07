@@ -153,6 +153,7 @@ while True:
 
     ## snake collision
     for food in old_fruit:
+        
         if food.distance(snake) < 20:
             time.sleep(1)
             screen.clear()
